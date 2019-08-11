@@ -1,0 +1,86 @@
+.sub-menu-button-color {
+    background-color: #343a40!important;
+    border-color: #343a40!important;
+}
+/*sub-menu-color*/
+
+/* .carouselcaption-selfdefined-font-style {
+  color: bisque;
+} */
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+
+.container-mycss {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.carousel-pic-size {
+height: 200px;
+}
+   
+@media (min-width: 1200px) { 
+    .carousel-pic-size {
+height: 600px;
+    }
+    
+    .container-mycss {
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+    }
+}
+/*while the screen size equal or larger than 1200px, then adjust the height to 300px, this is a default css responsiveness.*/
+
+
+
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+#table01 th {
+  background-color: black;
+  color: white;
+}
+
+.carlogos {
+    padding-bottom: 10px;
+}
+
+.inline-blk {
+  display: inline-block;
+}
+
+img.payment {
+  width: 45px;
+  height: 30px;
+}
+
+.footer-text {
+  color: white;
+}
